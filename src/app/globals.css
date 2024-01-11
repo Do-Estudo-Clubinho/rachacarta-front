@@ -22,3 +22,33 @@ body {
   background: rgb(33,33,33);
   background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(33,33,33,0.99) 50%, rgba(33,33,33,0.90) 100%);
 }
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  color: rgb(255, 255, 255, 0.6);
+}
+
+a {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 700;
+  background: -webkit-linear-gradient(0deg, #E54818, #FF7F00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
+
+input {
+  height: 3rem;
+  padding-left: 12px;
+  padding-right: 14px;
+  background: rgba(255, 255, 255, 0.04);
+}
